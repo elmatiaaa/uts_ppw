@@ -23,7 +23,7 @@ from sklearn.utils.validation import joblib
 
 st.title("UTS PENCARIAN DAN PENAMBANGAN WEB")
 st.write("-------------------------------------------------------------------------------------------------------------------------")
-upload_data, preporcessing, modeling = st.tabs(["Upload Data", "Modeling"])
+upload_data, modeling = st.tabs(["Upload Data", "Modeling"])
 
 
 with upload_data:
