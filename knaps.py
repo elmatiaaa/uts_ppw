@@ -28,7 +28,6 @@ upload_data, modeling = st.tabs(["Upload Data", "Modeling"])
 
 
 with upload_data:
-    st.write("""# Upload File""")
     uploaded_files = st.file_uploader("Upload file CSV", accept_multiple_files=True)
     for uploaded_file in uploaded_files:
         df = pd.read_csv(uploaded_file)
